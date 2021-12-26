@@ -18,7 +18,7 @@ function updateCards() {
             console.log("not the current hour")
         }
 };
-updateCards();
+// updateCards();
 
 //create local storage for tasks
 
