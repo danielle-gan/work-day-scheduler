@@ -9,19 +9,24 @@ displayDate();
 
 // update color of time blocks based on the time
 function updateCards() {
-    currentHour = date.getHours();
-    for(let i=0; i<12;i++)
-        if (currentHour === document.querySelector(".id")) {
-            console.log(".id")
+    var currentHour = moment().hour();
+    $(".time-block").each(function() {
+        var timeBlock = $(this).attr("id");
+        console.log(timeBlock, currentHour);
+        if (timeBlock < currentHour) {
+            $(this).addClass("past");
+        }
+        else if (timeBlock == currentHour) {
+            $(this).addClass("present");
         }
         else {
-            console.log("not the current hour")
+            $(this).addClass("future");
         }
+    })
 };
-// updateCards();
+window.onload = updateCards();
 
 //create local storage for tasks
 
-//add task when you click on a time card
 
 //save task when you click on the checkmark
