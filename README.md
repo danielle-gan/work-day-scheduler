@@ -13,10 +13,13 @@ Use the information learned in Module 5 to create a calendar application so some
 Click on a time-box and start typing the task you need to complete during that hour. Press the save icon on the right-hand side to save that task.
 
 ## Screenshots
+![Jumbotron](https://github.com/danielle-gan/work-day-scheduler/blob/main/Develop/assets/images/jumbotron-SS.PNG)
+
+![Timeblocks](https://github.com/danielle-gan/work-day-scheduler/blob/main/Develop/assets/images/time-block-SS.PNG)
 
 
 ## Link
-[!]
+[Webpage](https://danielle-gan.github.io/work-day-scheduler/Develop/index.html)
 
 ## Created With
 - HTML
